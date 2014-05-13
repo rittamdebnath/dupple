@@ -4,3 +4,4 @@ i want to much more responsive , for now it is working fine for
 @media(min-width:1200px){
 }
 
+but not in the tablet version or mobile i want to be more flexible
