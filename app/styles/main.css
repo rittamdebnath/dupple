@@ -1,0 +1,252 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+       
+
+
+header{
+    background-color: #037EBC;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    top: 0px;
+    margin: 0px;
+
+
+}
+
+header .heading_header{
+    color:#0CCDE8;
+    font-size: 40px;
+    padding: 50px;
+     
+
+}
+
+body{
+    background-color: #fff8de;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+
+}
+
+footer{
+    background-color: #037EBC;
+    min-width: 100%;
+    width:100%;
+    height: auto;
+    margin: 0;
+}
+
+.abbr{
+    color:#E8623B;
+}
+
+.img-thumbnail,.thumbnail{
+    padding:4px;
+    line-height:1.42857;
+    background-color:#f6f6f6;
+    border:1px solid #ddd;
+    border-radius:3px;
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+    display:inline-block;
+    max-width:100%;
+    height:auto
+}
+.f-para{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* ==========================================================================
+   Parallax Scroll
+   ========================================================================== */
+
+
+h2 {
+    margin-top: 0;
+}
+
+section.parallax {
+    min-width: 960px;
+    opacity: 0;
+}
+main {
+    overflow-x: hidden;
+}
+#preload {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
+.hsContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hsContent {
+    max-width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+    .hsContent h2  {
+        color: #fff8de;
+        background-color: rgba(0,0,0,0.5);
+        padding: 10px 5px;
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+    .hsContent p {
+        width: 400px;
+        color: #b2b2b2;
+    }
+    .hsContent a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../images/bcg_slide-1.jpg')}
+#slide-1 .hsContent {
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bcg {background-image:url('../images/bcg_slide-2.jpg')}
+#slide-2 .hsContent {
+    margin-left: -450px;
+    bottom: 200px;
+    top: auto;
+}
+
+/* Slide 3 */
+#slide-3 .bcg {background-image:url('../images/bcg_slide-3.jpg')}
+#slide-3 .hsContent {
+    margin-left: -239px;
+}
+    #slide-3 h2 {
+        color: #f2ead6;
+        background-color: rgba(0,0,0,0.6);
+    }
+
+/* Slide 4 */
+#slide-4 .bcg {background-image:url('../images/bcg_slide-4.jpg')}
+#slide-4 .hsContent {
+    margin-left: -450px;
+}
+    #slide-4 h2 {
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+/*end prallax skrol*/
+
+@media(min-width: 1200px){
+    .home .grigio {
+    padding-bottom: 60px;
+}
+
+.grigio .media-body {
+    padding: 32px 30px 10px 35px;
+}
+
+}
+
+@media(min-width: 768px){
+    .grigio .media-body {
+    padding: 16px 30px 10px 26px;
+    margin-right: 0px;
+    }
+}
+@media(min-width: 240px){
+    .grigio .media-body {
+    padding: 16px 30px 10px 26px;
+    margin-right: 0px;
+    }
+}
+
+@media(min-width: 420px){
+    .grigio .media-body {
+    padding: 16px 30px 10px 26px;
+    margin-right: 0px;
+    }
+}
+
+section.grigio {
+    background: none repeat scroll 0% 0% #EBEEED;
+    padding: 90px 0px;
+}
+
+.presentation{
+    text-align: center; 
+    margin-bottom: 35px;
+}
+
+.media{
+    background:none repeat scroll 0% 0% #FFF;
+    margin-bottom: 35px;
+}
+
+.media-img{
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+
+}
+.media div.pull-left{
+    overflow: hidden;
+    margin-right: -15px;
+    margin-left:0px;
+}
+
+section.mental{
+    font-size: 14px;
+    line-height: 22px;
+    padding: 30px 0px;
+    background: none repeat scroll 0% 0% #FFF;
+    position: relative;
+
+}
+.mental{
+    padding: 60px 0px;
+
+}
+
+.metal h3{
+    color: #5491F2;
+}
+
+.cols2 {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -moz-column-rule: 1px solid #58ACFA;
+}
+
+hr {
+    border-top: 1px solid #B7BBBD !important;
+}
+
+.language-list{
+    text-align: center;
+
+}
