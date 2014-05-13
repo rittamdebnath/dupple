@@ -5,3 +5,6 @@ i want to much more responsive , for now it is working fine for
 }
 
 but not in the tablet version or mobile i want to be more flexible
+
+
+all the photos are taken from https://uifaces.com i love this site for its color variant and ease on it's transition .https://ihatetomatoes.net has also helped me alot for creating the parallax effect thanks to Petr Tichy 
